@@ -1,0 +1,79 @@
+body {
+    background-color: #222; /* Dark background color for the entire page */
+    color: #fff; /* Light text color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Increase sizes for input fields */
+.todo-input-title{
+  margin-top: 20px; /* Increase bottom margin for spacing */
+
+}
+  .todo-input-title,
+  .todo-input-description {
+    width:97%; /* Adjust width to fit within container with margin */
+    padding: 12px; /* Increase padding */
+    border: 2px solid #ccc; /* Increase border thickness */
+    border-radius: 8px; /* Increase border radius */
+  margin-bottom: 10px;
+
+  }
+  
+  .todo-input-title::placeholder,
+  .todo-input-description::placeholder {
+    font-size: 14px; /* Increase placeholder font size */
+  }
+  
+  /* Increase sizes for buttons */
+  .todo-input-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Increase padding */
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .todo-input-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .heading {
+    font-size: 24px; /* Set the font size for the heading */
+    margin-bottom: 10px; /* Add margin below the heading */
+    color: #fff; /* Set the text color */
+  }
+  
+  .todo-list-ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .todo-list-li {
+    margin-bottom: 10px; /* Add margin between list items */
+    padding: 10px; /* Add padding to each list item */
+    background-color: #333030; /* Set background color for list items */
+    border-radius: 5px; /* Add border radius to list items */
+    display: flex; /* Use flexbox to align elements */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    color: #fff; /* Set text color for list items */
+  }
+  
+  .todo-list-li button {
+    background-color: #dc3545; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Add padding to button */
+    border-radius: 3px; /* Add border radius to button */
+    cursor: pointer; /* Set cursor to pointer */
+  }
+  
+  .todo-list-li button:hover {
+    background-color: #c82333; /* Change button background color on hover */
+  }
+  
+  .todo-list-li button:focus {
+    outline: none; /* Remove button focus outline */
+  }
+  

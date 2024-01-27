@@ -1,0 +1,55 @@
+/* index.css */
+
+.appbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004B49;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.appbar-heading {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.logout{
+  background-color: #fff;
+  color: #004B49;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Increase specificity for .signup selector */
+.appbar .signup {
+  background-color: #fff;
+  color: #004B49;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+} 
+
+.appbar .login {
+  background-color: #fff;
+  color: #004B49;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.right-corner {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
